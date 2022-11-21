@@ -11,6 +11,11 @@
   box-sizing: border-box;
   cursor: pointer;
 
+  &:hover {
+    border-color: gray;
+    transition-duration: 0.3s;
+  }
+
   &_title {
     display: flex;
     justify-content: space-between;
