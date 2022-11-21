@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  margin: 0px 7%;
+  margin-top: 20px;
+  padding-top: 100px;
+
+  .shortSkills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    margin-bottom: 70px;
+    // background-color: white;
+
+    & > div {
+      background-color: #7e4e16;
+      margin: 6px 5px;
+      padding: 6px 15px;
+      border: 3px dashed white;
+      border-radius: 50px;
+      font-size: 25px;
+      font-weight: 500;
+    }
+  }
+}

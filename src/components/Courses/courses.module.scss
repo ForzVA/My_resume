@@ -1,0 +1,16 @@
+.courses {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding-top: 100px;
+
+  &_block {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+    max-width: 3000px;
+    // margin: 0px 7%;
+  }
+}

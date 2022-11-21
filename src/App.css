@@ -1,38 +1,137 @@
+body {
+  animation: stopScroll 10s ease;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.all {
+  height: auto;
+  background-image: url(./assets/images/stena-loft-fon-krasivo-4.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  animation: backgroundBlur 3.5s ease-in-out;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.helloBlock {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.helloText {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: fit-content;
   color: white;
+  font-family: "Pacifico";
+  font-size: 130px;
+  vertical-align: middle;
+  z-index: 100;
+  top: 30%;
+  margin: auto;
+  visibility: hidden;
+  opacity: 0;
+  animation: textHelloVisitor 3s ease;
 }
 
-.App-link {
-  color: #61dafb;
+.progressBar {
+  position: absolute;
+  background-color: #d9d9d9;
+  top: 70%;
+  height: 30px;
+  width: 300px;
+  border-radius: 15px;
+  visibility: hidden;
+  opacity: 0;
+  animation: progressBar 3s ease;
+
+  z-index: 1000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.progressBar span {
+  display: block;
+  height: 100%;
+  width: 0%;
+  background-color: #4f9915;
+  border-radius: 15px;
+  visibility: hidden;
+  opacity: 0;
+  animation: progressBarSpan 3s ease;
+}
+
+@keyframes stopScroll {
+  0% {
+    overflow: hidden;
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    overflow: auto;
+  }
+}
+
+@keyframes backgroundBlur {
+  0% {
+    filter: blur(35px);
+  }
+  90% {
+    filter: blur(35px);
+  }
+  100% {
+    filter: blur(0);
+  }
+}
+
+@keyframes textHelloVisitor {
+  0% {
+    opacity: 0%;
+    visibility: visible;
+  }
+  80% {
+    opacity: 100%;
+    visibility: visible;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+
+@keyframes progressBarSpan {
+  0% {
+    opacity: 100%;
+    visibility: visible;
+  }
+  50% {
+    width: 20%;
+  }
+  70% {
+    width: 60%;
+  }
+  90% {
+    width: 100%;
+    opacity: 100%;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 0%;
+    visibility: hidden;
+    width: 100%;
+  }
+}
+
+@keyframes progressBar {
+  0% {
+    opacity: 100%;
+    visibility: visible;
+  }
+  85% {
+    opacity: 100%;
+    visibility: visible;
+  }
+  90% {
+    opacity: 0%;
+  }
+  100% {
+    visibility: hidden;
   }
 }

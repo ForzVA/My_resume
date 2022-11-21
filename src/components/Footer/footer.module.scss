@@ -1,0 +1,29 @@
+.container {
+  background: rgba(150, 75, 0, 0.5);
+  padding: 20px;
+  color: white;
+  font-family: "Roboto500";
+  backdrop-filter: blur(15px);
+  margin-top: 80px;
+  height: 100px;
+
+  .svgLinks {
+    width: min-content;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    & div {
+      display: inline;
+      width: max-content;
+      padding: 5px;
+      padding-right: 20px;
+      font-size: 20px;
+      text-align: left;
+    }
+  }
+}
+
+a {
+  color: white;
+}
