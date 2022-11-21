@@ -10,7 +10,7 @@ const SoftSkillBlock = ({
     <div className={s.block} onClick={() => handlerSkillDropDown(title)}>
       <div className={s.block_title}>
         <div className={s.block_title_text}>{title}</div>
-        <div className={s.block_title_burger}>
+        <div className={s.block_title_dropdown}>
           {!skillDropDown.includes(title) ? (
             <svg
               width="65"
@@ -44,9 +44,19 @@ const SoftSkillBlock = ({
           )}
         </div>
       </div>
-      {skillDropDown.includes(title) ? (
-        <div className={s.block_text}> {text}</div>
-      ) : null}
+      <div
+        className={
+          s.block_text +
+          " " +
+          [
+            skillDropDown.includes(title)
+              ? s.block_text_open
+              : s.block_text_close,
+          ]
+        }
+      >
+        {text}
+      </div>
     </div>
   );
 };

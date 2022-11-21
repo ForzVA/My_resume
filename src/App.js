@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import "./App.css";
 import Courses from "./components/Courses/Courses";
 import Footer from "./components/Footer/Footer";
@@ -7,6 +8,10 @@ import Main from "./components/Main/Main";
 import SoftSkills from "./components/SoftSkills/SoftSkills";
 
 function App() {
+  useEffect(() => {
+    document.title = "Alex Vasilevsky";
+  }, []);
+
   return (
     <div className="App">
       <div className="helloBlock">

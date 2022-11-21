@@ -6,7 +6,6 @@ import SoftSkillBlock from "./SoftSkillBlock/SoftSkillBlock";
 const SoftSkills = () => {
   const [skillDropDown, setSkillDropDown] = useState([]);
   const handlerSkillDropDown = (key) => {
-    console.log(key);
     if (skillDropDown.includes(key)) {
       let all = [...skillDropDown].filter((elem) => elem !== key);
       return setSkillDropDown(all);

@@ -61,7 +61,7 @@ body {
   animation: progressBarSpan 3s ease;
 }
 
-@keyframes stopScroll {
+/* @keyframes stopScroll {
   0% {
     overflow: hidden;
   }
@@ -134,4 +134,4 @@ body {
   100% {
     visibility: hidden;
   }
-}
+} */
