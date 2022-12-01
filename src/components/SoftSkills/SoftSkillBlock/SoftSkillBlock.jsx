@@ -1,4 +1,17 @@
+import { motion } from "framer-motion";
 import s from "./softSkillBlock.module.scss";
+
+const blockAnimation = {
+  hidden: {
+    x: "-15%",
+    opacity: 0,
+  },
+  visible: {
+    x: 0,
+    opacity: 1,
+    transition: { duration: 1 },
+  },
+};
 
 const SoftSkillBlock = ({
   title,
@@ -7,7 +20,14 @@ const SoftSkillBlock = ({
   skillDropDown,
 }) => {
   return (
-    <div className={s.block} onClick={() => handlerSkillDropDown(title)}>
+    <motion.div
+      initial={"hidden"}
+      whileInView={"visible"}
+      viewport={{ once: true }}
+      variants={blockAnimation}
+      className={s.block}
+      onClick={() => handlerSkillDropDown(title)}
+    >
       <div className={s.block_title}>
         <div className={s.block_title_text}>{title}</div>
         <div className={s.block_title_dropdown}>
@@ -57,7 +77,7 @@ const SoftSkillBlock = ({
       >
         {text}
       </div>
-    </div>
+    </motion.div>
   );
 };
 
