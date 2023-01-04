@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  height: 800px;
+  height: 100vh;
   justify-content: center;
   padding-top: 20px;
   margin: auto;
@@ -12,16 +12,15 @@
   position: relative;
   justify-content: center;
   align-items: center;
-  height: 450px;
-  min-width: 500px;
-  max-width: 1200px;
+  max-height: 450px;
   width: 100%;
+  max-width: 1600px;
   background-color: rgba(150, 75, 0, 0.8);
   border: 3px solid #673707;
   border-radius: 20px;
   animation: borderRGB 8s infinite;
   padding: 50px;
-  margin: 200px 50px 0px 50px;
+  margin: auto 140px;
   box-sizing: border-box;
 
   &_photo {
@@ -32,13 +31,8 @@
     transition: 0.6s;
   }
 
-  &_photo:hover {
-    transform: scale(1.1);
-    transition: 0.6s;
-  }
-
   &_text {
-    width: 60%;
+    width: 50%;
     margin-left: 50px;
     user-select: none;
 
@@ -84,20 +78,63 @@
   }
 }
 
-@keyframes borderRGB {
-  0% {
-    box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0.3);
+@media (max-width: 1024px) {
+  .container {
+    height: max-content;
   }
+  .block {
+    flex-direction: column;
+    max-height: max-content;
+    padding: 30px 50px;
+    margin: 130px 140px 0px;
+    box-sizing: border-box;
+    &_photo {
+      width: 300px;
+      height: 300px;
+    }
+    &_text {
+      width: 100%;
+      margin-left: 0;
 
-  33% {
-    box-shadow: 0px 0px 10px 5px rgba(4, 161, 64, 0.3);
-  }
+      &_name {
+        font-size: 55px;
+        font-family: "Pacifico";
+        color: white;
+        line-height: 70px;
+        margin-bottom: 15px;
+      }
 
-  66% {
-    box-shadow: 0px 0px 10px 5px rgba(0, 0, 255, 0.3);
-  }
+      &_prof {
+        font-family: "Caveat-Regular";
+        font-size: 25px;
+        color: #b3b3b3;
+      }
+    }
 
-  100% {
-    box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0.3);
+    .brown_dot {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+
+      background-color: #592e00;
+      border-radius: 50%;
+    }
+
+    .leftUpCorner {
+      right: calc(100% - 37px);
+      bottom: calc(100% - 35px);
+    }
+    .leftDownCorner {
+      right: calc(100% - 38px);
+      bottom: calc(0% + 6px);
+    }
+    .rightUpCorner {
+      left: calc(100% - 37px);
+      bottom: calc(100% - 35px);
+    }
+    .rightDownCorner {
+      left: calc(100% - 38px);
+      bottom: calc(0% + 6px);
+    }
   }
 }

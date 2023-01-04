@@ -1,12 +1,12 @@
 .container {
   height: 500px;
-  width: 33%;
-  min-width: 340px;
+  width: 25%;
+  min-width: 400px;
   max-width: 400px;
   margin: 30px;
   border-radius: 25px;
   transition: 0.5s ease;
-  background-color: blue;
+  box-shadow: 4px 18px 8px 0px rgba(34, 60, 80, 0.2);
 
   &:hover {
     transform: scale(1.1);
@@ -37,18 +37,28 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .container {
+    height: 450px;
+    margin: 20px;
+    .text {
+      font-size: 20px;
+    }
+  }
+}
+
 .blue_bg {
-  background-color: rgb(71, 71, 237);
+  background-color: rgba(71, 71, 237, 0.8);
 }
 
 .red_bg {
-  background-color: rgb(190, 44, 44);
+  background-color: rgba(190, 44, 44, 0.8);
 }
 
 .orange_bg {
-  background-color: rgb(213, 123, 20);
+  background-color: rgba(213, 123, 20, 0.8);
 }
 
 .green_bg {
-  background-color: rgb(8, 61, 11);
+  background-color: rgba(8, 61, 11, 0.8);
 }

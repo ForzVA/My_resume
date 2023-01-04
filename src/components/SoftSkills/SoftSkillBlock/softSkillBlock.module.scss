@@ -1,11 +1,14 @@
 .block {
-  width: 100%;
-  max-width: 3000px;
-  background-color: rgba(246, 150, 81, 0.7);
+  max-width: 1600px;
+  background: linear-gradient(
+    264.66deg,
+    rgba(103, 55, 7, 0.7) 0.81%,
+    rgba(42, 42, 42, 0.7) 99.84%
+  );
   border: 3px solid #ffffff;
   border-radius: 20px;
-  padding: 30px 50px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 10px 20px;
+  box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(5px);
   margin-bottom: 20px;
   box-sizing: border-box;
@@ -28,7 +31,7 @@
       max-height: min-content;
       text-align: left;
       color: white;
-      font-size: 60px;
+      font-size: 50px;
     }
 
     &_dropdown {
@@ -56,6 +59,27 @@
       transition: 1s ease;
       animation: textDisappearing 0.4s ease;
       margin-top: 0px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .block {
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    &_title {
+      &_text {
+        font-size: 25px;
+      }
+      &_dropdown svg {
+        padding-top: 5px;
+        height: 20px;
+        width: 35px;
+      }
+    }
+
+    &_text {
+      font-size: 20px;
     }
   }
 }

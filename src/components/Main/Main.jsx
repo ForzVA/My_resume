@@ -41,29 +41,32 @@ const Main = () => {
             opacity: 1,
             scale: 1,
             transition: {
-              delay: 0.2,
+              delay: 3,
               x: { duration: 0.3 },
               default: { ease: "linear" },
             },
           }}
+          viewport={{ once: true }}
           className={s.block_photo}
           src={avatar}
           alt="avatar"
         />
         <div className={s.block_text}>
           <motion.div
-            custom={0.5}
+            custom={7}
             initial="hidden"
             whileInView="visible"
+            viewport={{ once: true }}
             variants={textAnimation}
             className={s.block_text_name}
           >
             Alexander Vasilevsky
           </motion.div>
           <motion.div
-            custom={0.9}
+            custom={7.5}
             initial="hidden"
             whileInView="visible"
+            viewport={{ once: true }}
             variants={textAnimation}
             className={s.block_text_prof}
           >
@@ -74,6 +77,7 @@ const Main = () => {
           custom={2}
           initial="hidden"
           whileInView="visible"
+          viewport={{ once: true }}
           variants={dotAnimation}
           className={s.brown_dot + " " + s.leftUpCorner}
         ></motion.div>
@@ -81,6 +85,7 @@ const Main = () => {
           custom={3}
           initial="hidden"
           whileInView="visible"
+          viewport={{ once: true }}
           variants={dotAnimation}
           className={s.brown_dot + " " + s.leftDownCorner}
         ></motion.div>
@@ -88,6 +93,7 @@ const Main = () => {
           custom={4}
           initial="hidden"
           whileInView="visible"
+          viewport={{ once: true }}
           variants={dotAnimation}
           className={s.brown_dot + " " + s.rightUpCorner}
         ></motion.div>
@@ -95,6 +101,7 @@ const Main = () => {
           custom={5}
           initial="hidden"
           whileInView="visible"
+          viewport={{ once: true }}
           variants={dotAnimation}
           className={s.brown_dot + " " + s.rightDownCorner}
         ></motion.div>

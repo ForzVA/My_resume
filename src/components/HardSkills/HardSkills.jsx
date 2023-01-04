@@ -26,6 +26,7 @@ const HardSkills = () => {
               variants={animShortSkill}
               initial={"hidden"}
               whileInView={"visible"}
+              viewport={{ once: true }}
               custom={idx}
               key={idx}
             >

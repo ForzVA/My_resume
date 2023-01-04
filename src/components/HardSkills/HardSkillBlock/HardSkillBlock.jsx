@@ -20,6 +20,7 @@ const HardSkillBlock = (props) => {
         variants={animLongSkill}
         initial={"hidden"}
         whileInView={"visible"}
+        viewport={{ once: true }}
         className={cn(s.block, s[classScss])}
       >
         <div className={s.block_svg}>

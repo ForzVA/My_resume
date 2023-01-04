@@ -13,103 +13,103 @@ code {
 }
 
 @font-face {
-  font-family: Caveat-Regular; /* Имя шрифта */
-  src: url(./assets/fonts/Caveat-Regular.ttf); /* Путь к файлу со шрифтом */
+  font-family: Caveat-Regular;
+  src: url(./assets/fonts/Caveat-Regular.ttf);
 }
 @font-face {
-  font-family: Lato900; /* Имя шрифта */
-  src: url(./assets/fonts/Lato-Black.ttf); /* Путь к файлу со шрифтом */
+  font-family: Lato900;
+  src: url(./assets/fonts/Lato-Black.ttf);
 }
 @font-face {
-  font-family: Lato901; /* Имя шрифта */
-  src: url(./assets/fonts/Lato-BlackItalic.ttf); /* Путь к файлу со шрифтом */
+  font-family: Lato901;
+  src: url(./assets/fonts/Lato-BlackItalic.ttf);
 }
 @font-face {
-  font-family: Lato700; /* Имя шрифта */
-  src: url(./assets/fonts/Lato-Bold.ttf); /* Путь к файлу со шрифтом */
+  font-family: Lato700;
+  src: url(./assets/fonts/Lato-Bold.ttf);
 }
 @font-face {
-  font-family: Lato701; /* Имя шрифта */
-  src: url(./assets/fonts/Lato-BoldItalic.ttf); /* Путь к файлу со шрифтом */
+  font-family: Lato701;
+  src: url(./assets/fonts/Lato-BoldItalic.ttf);
 }
 @font-face {
-  font-family: Lato401; /* Имя шрифта */
-  src: url(./assets/fonts/Lato-Italic.ttf); /* Путь к файлу со шрифтом */
+  font-family: Lato401;
+  src: url(./assets/fonts/Lato-Italic.ttf);
 }
 @font-face {
-  font-family: Lato300; /* Имя шрифта */
-  src: url(./assets/fonts/Lato-Light.ttf); /* Путь к файлу со шрифтом */
+  font-family: Lato300;
+  src: url(./assets/fonts/Lato-Light.ttf);
 }
 @font-face {
-  font-family: Lato301; /* Имя шрифта */
-  src: url(./assets/fonts/Lato-LightItalic.ttf); /* Путь к файлу со шрифтом */
+  font-family: Lato301;
+  src: url(./assets/fonts/Lato-LightItalic.ttf);
 }
 @font-face {
-  font-family: Lato400; /* Имя шрифта */
-  src: url(./assets/fonts/Lato-Regular.ttf); /* Путь к файлу со шрифтом */
+  font-family: Lato400;
+  src: url(./assets/fonts/Lato-Regular.ttf);
 }
 @font-face {
-  font-family: Lato100; /* Имя шрифта */
-  src: url(./assets/fonts/Lato-Thin.ttf); /* Путь к файлу со шрифтом */
+  font-family: Lato100;
+  src: url(./assets/fonts/Lato-Thin.ttf);
 }
 @font-face {
-  font-family: Lato101; /* Имя шрифта */
-  src: url(./assets/fonts/Lato-ThinItalic.ttf); /* Путь к файлу со шрифтом */
+  font-family: Lato101;
+  src: url(./assets/fonts/Lato-ThinItalic.ttf);
 }
 @font-face {
-  font-family: Merienda; /* Имя шрифта */
-  src: url(./assets/fonts/Merienda-VariableFont_wght.ttf); /* Путь к файлу со шрифтом */
+  font-family: Merienda;
+  src: url(./assets/fonts/Merienda-VariableFont_wght.ttf);
 }
 @font-face {
-  font-family: Pacifico; /* Имя шрифта */
-  src: url(./assets/fonts/Pacifico-Regular.ttf); /* Путь к файлу со шрифтом */
+  font-family: Pacifico;
+  src: url(./assets/fonts/Pacifico-Regular.ttf);
 }
 
 @font-face {
-  font-family: Roboto900; /* Имя шрифта */
-  src: url(./assets/fonts/Roboto-Black.ttf); /* Путь к файлу со шрифтом */
+  font-family: Roboto900;
+  src: url(./assets/fonts/Roboto-Black.ttf);
 }
 @font-face {
-  font-family: Roboto901; /* Имя шрифта */
-  src: url(./assets/fonts/Roboto-BlackItalic.ttf); /* Путь к файлу со шрифтом */
+  font-family: Roboto901;
+  src: url(./assets/fonts/Roboto-BlackItalic.ttf);
 }
 @font-face {
-  font-family: Roboto700; /* Имя шрифта */
-  src: url(./assets/fonts/Roboto-Bold.ttf); /* Путь к файлу со шрифтом */
+  font-family: Roboto700;
+  src: url(./assets/fonts/Roboto-Bold.ttf);
 }
 @font-face {
-  font-family: Roboto701; /* Имя шрифта */
-  src: url(./assets/fonts/Roboto-BoldItalic.ttf); /* Путь к файлу со шрифтом */
+  font-family: Roboto701;
+  src: url(./assets/fonts/Roboto-BoldItalic.ttf);
 }
 @font-face {
-  font-family: Roboto401; /* Имя шрифта */
-  src: url(./assets/fonts/Roboto-Italic.ttf); /* Путь к файлу со шрифтом */
+  font-family: Roboto401;
+  src: url(./assets/fonts/Roboto-Italic.ttf);
 }
 @font-face {
-  font-family: Roboto300; /* Имя шрифта */
-  src: url(./assets/fonts/Roboto-Light.ttf); /* Путь к файлу со шрифтом */
+  font-family: Roboto300;
+  src: url(./assets/fonts/Roboto-Light.ttf);
 }
 @font-face {
-  font-family: Roboto301; /* Имя шрифта */
-  src: url(./assets/fonts/Roboto-LightItalic.ttf); /* Путь к файлу со шрифтом */
+  font-family: Roboto301;
+  src: url(./assets/fonts/Roboto-LightItalic.ttf);
 }
 @font-face {
-  font-family: Roboto500; /* Имя шрифта */
-  src: url(./assets/fonts/Roboto-Medium.ttf); /* Путь к файлу со шрифтом */
+  font-family: Roboto500;
+  src: url(./assets/fonts/Roboto-Medium.ttf);
 }
 @font-face {
-  font-family: Roboto501; /* Имя шрифта */
-  src: url(./assets/fonts/Roboto-MediumItalic.ttf); /* Путь к файлу со шрифтом */
+  font-family: Roboto501;
+  src: url(./assets/fonts/Roboto-MediumItalic.ttf);
 }
 @font-face {
-  font-family: Roboto400; /* Имя шрифта */
-  src: url(./assets/fonts/Roboto-Regular.ttf); /* Путь к файлу со шрифтом */
+  font-family: Roboto400;
+  src: url(./assets/fonts/Roboto-Regular.ttf);
 }
 @font-face {
-  font-family: Roboto100; /* Имя шрифта */
-  src: url(./assets/fonts/Roboto-Thin.ttf); /* Путь к файлу со шрифтом */
+  font-family: Roboto100;
+  src: url(./assets/fonts/Roboto-Thin.ttf);
 }
 @font-face {
-  font-family: Roboto101; /* Имя шрифта */
-  src: url(./assets/fonts/Roboto-ThinItalic.ttf); /* Путь к файлу со шрифтом */
+  font-family: Roboto101;
+  src: url(./assets/fonts/Roboto-ThinItalic.ttf);
 }
