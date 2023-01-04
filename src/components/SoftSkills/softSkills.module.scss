@@ -5,3 +5,11 @@
   margin: auto 140px;
   padding-top: 100px;
 }
+
+@media (max-width: 640px) {
+  .container {
+    margin: auto 15px;
+    padding-top: 100px;
+  }
+  
+ }

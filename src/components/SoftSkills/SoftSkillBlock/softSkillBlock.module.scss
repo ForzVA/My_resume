@@ -84,6 +84,22 @@
   }
 }
 
+@media (max-width: 640px) {
+  .block {
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    &_title {
+      &_text {
+        font-size: 15px;
+      }
+    }
+
+    &_text {
+      font-size: 12px;
+    }
+  }
+}
+
 @keyframes textAppearance {
   0% {
     opacity: 0%;

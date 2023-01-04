@@ -59,6 +59,32 @@
   }
 }
 
+@media (max-width: 640px) {
+  .block {
+    flex-direction: column;
+    padding: 25px;
+    margin-bottom: 30px;
+
+    &_svg {
+      width: max-content;
+      margin: 0;
+
+      & img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+    &_text {
+      text-align: center;
+      width: 100%;
+      font-size: 18px;
+      & p {
+        margin: 2px;
+      }
+    }
+  }
+}
+
 .green_background {
   background: linear-gradient(
     89deg,

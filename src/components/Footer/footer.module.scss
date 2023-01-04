@@ -38,3 +38,18 @@
 a {
   color: white;
 }
+
+@media (max-width: 640px) {
+  .container {
+    height: max-content;
+    .svgLinks {
+      & div {
+        font-size: 8px;
+      }
+    }
+  }
+}
+
+a {
+  color: white;
+}
