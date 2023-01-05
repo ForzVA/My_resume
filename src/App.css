@@ -1,10 +1,26 @@
 body {
-  animation: stopScroll 10s ease;
+  animation: stopScroll 15s ease;
+}
+
+@media (min-width: 1440px) {
+  .all {
+    background-image: url(./assets/images/stena-loft-fon-krasivo-4.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 @media (max-width: 768px) {
   * {
     -webkit-tap-highlight-color: transparent;
+  }
+  .all {
+    background-image: url(./assets/images/stena-loft-fon-krasivo-4.jpg);
+    background-attachment: fixed;
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-size: auto;
   }
 }
 
@@ -13,10 +29,6 @@ body {
 }
 
 .all {
-  background-image: url(./assets/images/stena-loft-fon-krasivo-4.jpg);
-  background-attachment: fixed;
-  background-position: center center;
-  background-repeat: no-repeat;
   animation: backgroundBlur 3.5s ease-in-out;
 }
 

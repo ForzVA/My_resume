@@ -45,8 +45,10 @@ a {
     padding: 10px;
     height: max-content;
     .svgLinks {
-      grid-template-rows: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: auto;
       & div {
         width: max-content;
         font-size: 10px;
