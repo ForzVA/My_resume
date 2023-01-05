@@ -2,6 +2,12 @@ body {
   animation: stopScroll 10s ease;
 }
 
+@media (max-width: 768px) {
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
 .App {
   text-align: center;
 }
