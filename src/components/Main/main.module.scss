@@ -78,14 +78,11 @@
 }
 
 @media (max-width: 1024px) {
-  .container {
-    height: max-content;
-  }
   .block {
     flex-direction: column;
     max-height: max-content;
     padding: 30px 50px;
-    margin: 130px 140px 0px;
+    margin: auto 140px 10px;
     box-sizing: border-box;
     &_photo {
       width: 300px;
@@ -113,19 +110,12 @@
     height: max-content;
   }
   .block {
-    flex-direction: column;
-    max-height: max-content;
-    padding: 30px 50px;
-    margin: 130px 15px 0px;
-    box-sizing: border-box;
+    margin: 130px 15px 0;
     &_photo {
       width: 150px;
       height: 150px;
     }
     &_text {
-      width: 100%;
-      margin-left: 0;
-
       &_name {
         font-size: 40px;
         line-height: 50px;

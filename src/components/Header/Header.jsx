@@ -7,10 +7,15 @@ import { useState } from "react";
 import cn from "classnames";
 
 export const Header = () => {
-  const [toggle, setToggle] = useState(true);
-  console.log(toggle);
+  const [toggle, setToggle] = useState(false);
 
-  const nav = toggle ? "none" : null;
+  if (toggle) {
+    document.body.style.cssText = `
+      overflow: hidden`;
+  } else {
+    document.body.style.cssText = `
+      overflow: auto`;
+  }
 
   return (
     <header className={s.container}>

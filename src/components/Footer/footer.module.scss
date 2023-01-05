@@ -26,6 +26,7 @@
 
 @media (max-width: 1024px) {
   .container {
+    padding: 10px;
     height: max-content;
     .svgLinks {
       & div {
@@ -41,10 +42,14 @@ a {
 
 @media (max-width: 640px) {
   .container {
+    padding: 10px;
     height: max-content;
     .svgLinks {
+      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
       & div {
-        font-size: 8px;
+        width: max-content;
+        font-size: 10px;
       }
     }
   }

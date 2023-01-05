@@ -65,6 +65,7 @@
 
 @media (max-width: 1024px) {
   .block {
+    width: auto;
     padding: 10px 15px;
     margin-bottom: 15px;
     &_title {
@@ -86,16 +87,18 @@
 
 @media (max-width: 640px) {
   .block {
-    padding: 8px 10px;
-    margin-bottom: 10px;
+    padding: 10px 10px;
     &_title {
+      margin: 10px 0px;
       &_text {
-        font-size: 15px;
+        font-size: 20px;
       }
     }
-
     &_text {
-      font-size: 12px;
+      font-size: 16px;
+      &_open {
+        margin-top: 10px;
+      }
     }
   }
 }
