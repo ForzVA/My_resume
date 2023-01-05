@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/My_resume/static/css/main.a05ad81b.css",
+    "main.css": "/My_resume/static/css/main.69c070c3.css",
     "main.js": "/My_resume/static/js/main.53f3e5aa.js",
     "static/media/stena-loft-fon-krasivo-4.jpg": "/My_resume/static/media/stena-loft-fon-krasivo-4.816170af6c1faf67aec5.jpg",
     "static/media/Pacifico-Regular.ttf": "/My_resume/static/media/Pacifico-Regular.c0d735fc04154e03a691.ttf",
@@ -36,11 +36,11 @@
     "static/media/icons8-реакция-400.png": "/My_resume/static/media/icons8-реакция-400.e767d58738285206407e.png",
     "static/media/english.png": "/My_resume/static/media/english.6774dc54e4426526fd5a.png",
     "index.html": "/My_resume/index.html",
-    "main.a05ad81b.css.map": "/My_resume/static/css/main.a05ad81b.css.map",
+    "main.69c070c3.css.map": "/My_resume/static/css/main.69c070c3.css.map",
     "main.53f3e5aa.js.map": "/My_resume/static/js/main.53f3e5aa.js.map"
   },
   "entrypoints": [
-    "static/css/main.a05ad81b.css",
+    "static/css/main.69c070c3.css",
     "static/js/main.53f3e5aa.js"
   ]
 }
