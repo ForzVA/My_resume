@@ -1,3 +1,5 @@
+@import "../../../scss/global.scss";
+
 .block {
   max-width: 1600px;
   background: linear-gradient(
@@ -27,11 +29,11 @@
     margin: 20px 0px;
 
     &_text {
-      font-family: "Roboto500";
       max-height: min-content;
       text-align: left;
       color: white;
-      font-size: 50px;
+      font-size: 55px;
+      @extend %montserratAlt-700;
     }
 
     &_dropdown {
@@ -42,8 +44,8 @@
   &_text {
     color: white;
     font-size: 30px;
-    font-family: "Roboto400";
     text-align: left;
+    @extend %montserratAlt-400;
 
     &_open {
       max-height: 500px;

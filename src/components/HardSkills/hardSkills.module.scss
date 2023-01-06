@@ -1,3 +1,5 @@
+@import "../../scss/global.scss";
+
 .container {
   display: flex;
   flex-direction: column;
@@ -13,6 +15,7 @@
     justify-content: center;
     color: white;
     margin-bottom: 70px;
+    @extend %montserratAlt-500;
 
     & > div {
       background-color: rgba(126, 78, 22, 0.7);
@@ -36,7 +39,6 @@
         border: 2px dashed white;
         border-radius: 50px;
         font-size: 20px;
-        font-weight: 400;
       }
     }
   }
@@ -46,16 +48,11 @@
   .container {
     margin: 0px 15px;
     .shortSkills {
-      align-items: flex-start;
       margin-bottom: 30px;
 
       & > div {
-        // margin: auto;
-        display: flex;
         align-items: center;
-        padding: 7px 7px;
         font-size: 18px;
-        font-weight: 500;
       }
     }
   }

@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import s from "./main.module.scss";
-import avatar from "../../assets/images/alex.jpg";
+import avatar from "../../assets/images/avatar.png";
 
 const textAnimation = {
   hidden: {

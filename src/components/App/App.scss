@@ -1,0 +1,196 @@
+@import "../../scss/global.scss";
+
+body {
+  animation: stopScroll 15s ease;
+}
+
+@media (min-width: 768px) {
+  .all {
+    background: linear-gradient(
+        0deg,
+        rgba(42, 42, 42, 0.85),
+        rgba(42, 42, 42, 0.85)
+      ),
+      url(../../assets/images/bgLoft.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 768px) {
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+  .all {
+    background: linear-gradient(
+        0deg,
+        rgba(42, 42, 42, 0.85),
+        rgba(42, 42, 42, 0.85)
+      ),
+      url(../../assets/images/bgLoft.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: auto;
+    background-size: auto 100vh;
+  }
+}
+
+.App {
+  text-align: center;
+}
+
+.all {
+  animation: backgroundBlur 3.5s ease-in-out;
+}
+
+.helloBlock {
+  display: flex;
+  justify-content: center;
+}
+
+.helloText {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: fit-content;
+  color: white;
+  font-family: "Pacifico";
+  font-size: 130px;
+  vertical-align: middle;
+  z-index: 15;
+  top: 30%;
+  margin: auto;
+  visibility: hidden;
+  opacity: 0;
+  animation: textHelloVisitor 3s ease;
+}
+
+.progressBar {
+  position: absolute;
+  background-color: #d9d9d9;
+  top: 70%;
+  height: 30px;
+  width: 300px;
+  border-radius: 15px;
+  visibility: hidden;
+  opacity: 0;
+  animation: progressBar 3s ease;
+
+  z-index: 15;
+}
+
+.progressBar span {
+  display: block;
+  height: 100%;
+  width: 0%;
+  background-color: #4f9915;
+  border-radius: 15px;
+  visibility: hidden;
+  opacity: 0;
+  animation: progressBarSpan 3s ease;
+}
+
+@media (max-width: 1024px) {
+  .helloText {
+    font-size: 95px;
+  }
+
+  .progressBar {
+    position: absolute;
+    background-color: #d9d9d9;
+    top: 70%;
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    visibility: hidden;
+    opacity: 0;
+    animation: progressBar 3s ease;
+  }
+
+  .progressBar span {
+    display: block;
+    height: 100%;
+    width: 0%;
+    background-color: #4f9915;
+    border-radius: 15px;
+    visibility: hidden;
+    opacity: 0;
+    animation: progressBarSpan 3s ease;
+  }
+}
+
+@keyframes stopScroll {
+  0% {
+    overflow: hidden;
+  }
+  100% {
+    overflow: auto;
+  }
+}
+
+@keyframes backgroundBlur {
+  0% {
+    filter: blur(35px);
+  }
+  90% {
+    filter: blur(35px);
+  }
+  100% {
+    filter: blur(0);
+  }
+}
+
+@keyframes textHelloVisitor {
+  0% {
+    opacity: 0%;
+    visibility: visible;
+  }
+  80% {
+    opacity: 100%;
+    visibility: visible;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+
+@keyframes progressBarSpan {
+  0% {
+    opacity: 100%;
+    visibility: visible;
+  }
+  50% {
+    width: 20%;
+  }
+  70% {
+    width: 60%;
+  }
+  90% {
+    width: 100%;
+    opacity: 100%;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 0%;
+    visibility: hidden;
+    width: 100%;
+  }
+}
+
+@keyframes progressBar {
+  0% {
+    opacity: 100%;
+    visibility: visible;
+  }
+  85% {
+    opacity: 100%;
+    visibility: visible;
+  }
+  90% {
+    opacity: 0%;
+  }
+  100% {
+    visibility: hidden;
+  }
+}

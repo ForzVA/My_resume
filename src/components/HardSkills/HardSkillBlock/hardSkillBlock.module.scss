@@ -1,3 +1,5 @@
+@import "../../../scss/global.scss";
+
 .block {
   display: flex;
   align-items: center;
@@ -10,6 +12,7 @@
   transition: 0.5s ease;
   cursor: pointer;
   box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.6);
+  @extend %montserratAlt-500;
 
   &:hover {
     transform: scale(1.05);
@@ -28,7 +31,6 @@
 
     & p {
       margin: 7px;
-      font-family: "Roboto400";
     }
   }
 }
@@ -67,7 +69,7 @@
       }
     }
     &_text {
-      font-size: 18px;
+      font-size: 23px;
     }
   }
 }

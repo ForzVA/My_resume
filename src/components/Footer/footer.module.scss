@@ -1,11 +1,13 @@
+@import "../../scss/global.scss";
+
 .container {
   background-color: rgba(150, 75, 0, 0.3);
   backdrop-filter: blur(5px);
   padding: 20px;
   color: white;
-  font-family: "Roboto500";
   margin-top: 80px;
   height: 100px;
+  @extend %montserratAlt-300;
 
   .svgLinks {
     width: min-content;
