@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/My_resume/static/css/main.10b7376c.css",
-    "main.js": "/My_resume/static/js/main.f60e7779.js",
+    "main.css": "/My_resume/static/css/main.c0d4d910.css",
+    "main.js": "/My_resume/static/js/main.c97162e4.js",
     "static/media/bgLoft.jpg": "/My_resume/static/media/bgLoft.816170af6c1faf67aec5.jpg",
     "static/media/Pacifico-Regular.ttf": "/My_resume/static/media/Pacifico-Regular.c0d735fc04154e03a691.ttf",
     "static/media/Caveat-Regular.ttf": "/My_resume/static/media/Caveat-Regular.1f129497cd349562c266.ttf",
-    "static/media/JSFullStashchuk.jpg": "/My_resume/static/media/JSFullStashchuk.5b10b422cf56a46efcc7.jpg",
+    "static/media/jsFullStashchuk.jpg": "/My_resume/static/media/jsFullStashchuk.5b10b422cf56a46efcc7.jpg",
     "static/media/Merienda-VariableFont_wght.ttf": "/My_resume/static/media/Merienda-VariableFont_wght.ed0088a5f8f4f6e9982e.ttf",
     "static/media/MontserratAlternates-Black.ttf": "/My_resume/static/media/MontserratAlternates-Black.53c65844392081267032.ttf",
     "static/media/MontserratAlternates-Regular.ttf": "/My_resume/static/media/MontserratAlternates-Regular.17043267bfe178ef8921.ttf",
@@ -16,18 +16,19 @@
     "static/media/MontserratAlternates-ExtraLight.ttf": "/My_resume/static/media/MontserratAlternates-ExtraLight.9cdbca51b74ed2b1427e.ttf",
     "static/media/MontserratAlternates-Light.ttf": "/My_resume/static/media/MontserratAlternates-Light.f108b24eefec66e65492.ttf",
     "static/media/MontserratAlternates-Thin.ttf": "/My_resume/static/media/MontserratAlternates-Thin.6a470b5ae41d0628a50a.ttf",
-    "static/media/ReactFullStashchuk.jpg": "/My_resume/static/media/ReactFullStashchuk.8fd635122942745e5b6e.jpg",
-    "static/media/DockerFullStashchuk.jpg": "/My_resume/static/media/DockerFullStashchuk.deb1b8b098cf6adea87c.jpg",
+    "static/media/reactFullStashchuk.jpg": "/My_resume/static/media/reactFullStashchuk.8fd635122942745e5b6e.jpg",
+    "static/media/dockerFullStashchuk.jpg": "/My_resume/static/media/dockerFullStashchuk.deb1b8b098cf6adea87c.jpg",
     "static/media/avatar.png": "/My_resume/static/media/avatar.366796f4d1f6af15fe33.png",
-    "static/media/SkilFactory2.png": "/My_resume/static/media/SkilFactory2.8079754b866fafee6e07.png",
+    "static/media/skillFactory.png": "/My_resume/static/media/skillFactory.d26b2e9af6ce2a09776d.png",
     "static/media/icons8-реакция-400.png": "/My_resume/static/media/icons8-реакция-400.e767d58738285206407e.png",
     "static/media/english.png": "/My_resume/static/media/english.6774dc54e4426526fd5a.png",
     "index.html": "/My_resume/index.html",
-    "main.10b7376c.css.map": "/My_resume/static/css/main.10b7376c.css.map",
-    "main.f60e7779.js.map": "/My_resume/static/js/main.f60e7779.js.map"
+    "static/media/zoom_icon.svg": "/My_resume/static/media/zoom_icon.eab86e39c0c7ce6cf82c1eee08367729.svg",
+    "main.c0d4d910.css.map": "/My_resume/static/css/main.c0d4d910.css.map",
+    "main.c97162e4.js.map": "/My_resume/static/js/main.c97162e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.10b7376c.css",
-    "static/js/main.f60e7779.js"
+    "static/css/main.c0d4d910.css",
+    "static/js/main.c97162e4.js"
   ]
 }
